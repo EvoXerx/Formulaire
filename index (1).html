@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISE A JOUR DE FILM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <img src="Capture_d_écran_2023-12-13_223908-removebg-preview.png" class="logo">
+    <header>  
+        <h1>Mon site de streaming </h1>
+    </header>
+
+    <nav>  
+        <a href="#">Accueil</a>
+        <a href="#">Films</a>
+        <a href="notation.html">Notation</a>
+        <a href="#">À propos</a>
+    </nav>
+
+    <div class="container">
+        <h2>Mise à jour de film</h2>
+        <form>
+            <label for="title">Titre du film :</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="name">Nom du réalisateur :</label>
+            <select id="name" name="name" required>
+              <option value="1er_realisateur">1er réalisateur</option>
+              <option value="2eme_realisateur">2ème réalisateur</option>
+              <option value="3eme_realisateur">3ème réalisateur</option>
+              <option value="4eme_realisateur">4ème réalisateur</option>
+            </select>
+
+            <label for="Date">Quel est la date du film ? :</label>
+            <input type="date" id="date" name="date">
+
+            <label for="actor">Nom de l'acteur :</label>
+            <input type="text" id="actor" name="actor">
+            
+
+            <label for="genre">Genre :</label>
+            <select id="genre" name="genre" required>
+                <option value="horreur">Horreur</option>
+                <option value="action">Action</option>
+                <option value="comédie">Comédie</option>
+                <option value="fantastique">Fantastique</option>
+                <option value="science-fiction">Science-fiction</option>
+                <option value="aventure">Aventure</option>
+            </select>
+
+            <label for="pays">Pays :</label>
+            <select id="pays" name="pays" required>
+                <option value="france">France</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+                <option value="allemagne">Allemagne</option>
+                <option value="royaume-uni">Royaume-Uni</option>
+                <option value="canada">Canada</option>
+                <option value="japon">Japon</option>
+                <option value="chine">Chine</option>
+                <option value="australie">Australie</option>
+                <option value="nouvelle-zelande">Nouvelle-Zélande</option>
+            </select>
+            
+            <label for="description">Résumé :</label>
+            <textarea type="description" id="description" name="commentaire" required></textarea>
+            <br>
+            <br>
+            <button type="submit">Soumettre</button>
+        </form>
+    </div>
+
+</body>
+</html>
